@@ -1,0 +1,16 @@
+Functionality
+- The calculator has the ability to handle negative numbers (i.e. -2*(-1+4)) without crashing.
+- If there are two negative signs next to each other (i.e. 2--4), the code will successfully register that the first negative sign is for subtration, and the second is for a negative number.
+- My program can handle errors such as putting two operators next to each other, missing a parenthesis, etc without crashing.
+- The calculator will not register that a multiplication with parenthesis (i.e. 4(1+2)) is multiplation, and instead displays an error message.
+
+Additional Notes
+- I modified some other methods discussed in previous semesters such as the matchingParenthesis() method.
+- I made my Node class generic.
+- Program uses stacks in a few methods.
+- ArithExprTree extends BinaryTree.
+- If I had more time, I would like to do even more extensive testing than I already have, change the calculator from working with integers to doubles, and add other functionality such as power and square root.
+
+Internet Code
+- I used a BroCode Java Graphics tutorial (YouTube) to understand how to use buttons, however I did not copy or use any code directly from the video. All button code is my own.
+- I used the infixToPostfix method on the GeeksForGeeks website that we discussed in Homework 8 for my toPostfix() method. I modified this code for my program, and is not the exact code from the website.
